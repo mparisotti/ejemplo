@@ -1,0 +1,108 @@
+.titulo{
+    padding-left: 40%;
+}
+
+.nav-bg{
+    background-color: rgb(1, 151, 165);
+}
+.navegacion-principal{
+    background-color: rgb(1, 151, 165);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navegacion-principal a{
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+.hero{
+    background-image: url(/Img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 290px;
+}
+.contenedor-hero{
+    text-align: center;
+    padding-top: 8%;
+}
+.boton{
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    height: 25px;
+    background-color: rgb(1, 151, 165);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.botonEnlace{
+    margin: auto;
+    display: flex;
+    align-items: center; /* Centrado vertical */
+    justify-content: center;
+    width: 100px;
+    height: 25px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(1, 151, 165);
+    color: white;
+    border-radius: 7px;
+}
+#h {
+    text-align: center;
+}
+.formulario{
+    width: 30%;
+    height: 355px;
+    margin: 0 auto;
+    background-color: #757575;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+fieldset{
+    border: 0;
+    height: 100%;
+    width: 92.5%;
+}
+legend{
+    padding-top: 3%;
+    text-align: center; 
+  font-size: 1.5em; 
+  text-transform: uppercase;
+  white-space: normal; 
+    color: rgb(255, 153, 0);
+}
+.contenedor-campos{
+    background-color: #757575;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.campo{
+    color: white;
+    padding: 1%;
+}
+.input-text{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+textarea{
+    height: 70%;
+}
+.campoarea{
+    color: white;
+    flex: 1;
+  width: 100%;
+  padding: 1%;
+  border-radius: 10px; /* Ajusta automáticamente la altura según el contenido */
+  resize: none; /* Deshabilita la función de redimensionamiento del usuario */
+
+}
+.footer{
+    margin-top: 1%;
+    text-align: center;
+    color: #c7d1c7;
+}
